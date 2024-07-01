@@ -27,7 +27,16 @@ body {
 }
 
 .profile-picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture .headshot {
+  object-fit: cover;
 }
 
 .display-information {
