@@ -1,0 +1,10 @@
+.profile-picture {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.profile-picture .headshot {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

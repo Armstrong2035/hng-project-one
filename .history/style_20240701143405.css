@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-card {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.profile-picture .headshot {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.display-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.display-information p {
+  margin-bottom: 1px;
+}
+
+h2,
+h3 {
+  margin: 5px 0;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  #container {
+    max-width: 600px;
+  }
+}

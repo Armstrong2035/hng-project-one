@@ -1,0 +1,21 @@
+.profile-card {
+  text-align: left; /* Change from center to left */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+  align-items: flex-start;
+  justify-content: space-between; /* Add this to push items apart */
+}
+
+.profile-picture {
+  height: 150px;
+  width: 150px;
+  order: 2; /* Add this to move the picture to the right */
+}
+
+.display-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  order: 1; /* Add this to keep the text on the left */
+}
